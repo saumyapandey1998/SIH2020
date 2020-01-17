@@ -3,7 +3,7 @@
 <title>team</title>
 
 <body >
-<
+
 <form action="//submit.form" id="Health Insurance Form" method="post" onsubmit="return ValidateForm(this);">
 <script type="text/javascript">
 function ValidateForm(frm) {
@@ -18,37 +18,32 @@ return true; }
 <table border="0" cellpadding="5" cellspacing="10">
 <tr> <td style="width: 50%">
 
-<label for="First_Name"><b>First name *</b></label><br />
-<input name="First_Name" type="text" maxlength="100" style="width: 260px" />
+<label for="Name"><b>Name *</b></label><br />
+<input name="name" type="text" maxlength="100" style="width: 260px" />
 </td>  <td style="width: 50%">
-
-<label for="Last_Name"><b>Last name *</b></label><br />
-<input name="Last_Name" type="text" maxlength="50" style="width: 260px" />
-</td> </tr> <tr> <td style="width: 50%">
 
 <label for="DOB"><b>DOB</b></label><br />
 <input name="DOB" type="text" maxlength="50" style="width: 260px" />
 </td>  <td colspan="2">
 
 <label for="Place of Birth"><b>Place of Birth</b></label><br />
-<input name="Place of Birth" style="width: 250px"></textarea>
+<input name="Pob" style="width: 250px"></textarea>
 </td> </tr> <tr> <td colspan="2" >
 
 <label for="Age"><b>Age *</b></label><br />
-<input name="Age" type="text" maxlength="25" style="width: 53px" />
+<input name="age" type="text" maxlength="25" style="width: 53px" />
 </td> </tr> <tr>  <td colspan="2">
 
 <label for="Gender"><b>Gender(M/F) *</b></label><br />
-<input name="Gender" type="text" maxlength="100" style="width: 55px" />
+<input name="Gender" type="text" maxlength="10" style="width: 55px" />
 </td> </tr> <tr> <td>
 
 <label for="Caste"><b>Caste *</b></label><br />
 <input name="Caste" type="text" maxlength="50" style="width: 260px" />
 </td>  <td>
 
-<label for="Religious Minority"><b>Religious Minority*</b></label><br />
-<input name="Religious Minority" type="checkbox"  checked="checked" /> Yes
-<input name="Religious Minority" type="checkbox" /> No
+<label for="Religious Minority"><b>Religious Minority(Y/N)*</b></label><br />
+<input name="Religious Minority" type="text"  maxlength="10" style="width:55px"  /> 
 </td> </tr> <tr> <td colspan="2">
 
 
@@ -61,9 +56,17 @@ return true; }
 <input name="Father/Husband Name" style="width: 250px"></textarea>
 </td>  <td colspan="2" >
 
-<label for="Phone"><b>Phone *</b></label><br />
-<input name="Phone" type="text" maxlength="50" style="width: 260px" />
+<label for="focc"><b>Father/Husband Occupation *</b></label><br />
+<input name="focc" type="text" maxlength="50" style="width: 260px" />
 </td> </tr> <tr> <td>
+
+  <label for="Mother Name"><b>Mother Name*</b></label><br />
+  <input name="Mother Name" style="width: 250px"></textarea>
+  </td>  <td colspan="2" >
+  
+  <label for="mocc"><b>Mother Occupation *</b></label><br />
+  <input name="mocc" type="text" maxlength="50" style="width: 260px" />
+  </td> </tr> <tr> <td>
 
   <label for="Blood Group"><b>Blood Group</b></label><br />
   <input name="Blood Group" type="text" maxlength="50" style="width: 260px" />
@@ -74,15 +77,16 @@ return true; }
 <label for="Aadhar"><b>Aadhar card *</b></label><br />
 <input name="Aadhar" type="text" maxlength="50" style="width: 260px" />
 </td> </tr> <tr> <td style="width: 50%">
+  <label for="Address"><b>Address *</b></label><br />
+<input name="Address" type="text" maxlength="200" style="width: 260px" />
+</td> </tr> <tr> <td style="width: 50%">
 
 <label for="Pan Card"><b>Pan card</b></label><br />
 <input name="Pan Card" type="text" maxlength="50" style="width: 260px" />
 </td> </tr> <tr> <td colspan="2">
-
-<label for="Marital Status"><b>Marital Status</b></label><br />
-<input name="Marital Status" type="checkbox"  checked="checked" /> Single
-<input name="Marital Status" type="checkbox" /> Married
-<input name="Marital Status" type="checkbox" /> Divorced </td> </tr> <tr> <td colspan="2">
+<label for="nat"><b>Nationality</b></label><br />
+<input name="nat" type="text" maxlength="50" style="width: 260px" />
+</td> </tr> <tr> <td colspan="2">
 
 <label for="Education Qualification"><b>Education Qualification</b></label><br />
 <input name="Education Qualification" type="checkbox"  checked="checked" /> No formal Education
@@ -114,6 +118,13 @@ return true; }
 <label for="Vision"><b>Vision *</b></label><br /><input name="Vision" type="text" maxlength="50" style="width: 260px" />
 </td></tr> <tr> <td colspan="2">
 
+  <label for="alcohol"><b>Alcoholic(Y/N) *</b></label><br />
+  <input name="alcohol" type="text" maxlength="50" style="width: 55px" />
+  </td>  </tr><tr><td colspan="1">
+  
+  <label for="smoke"><b>Smoker(Y/N)*</b></label><br />
+  <input name="smoke" type="text"  maxlength="10" style="width:55px"  /> 
+  </td> </tr> <tr> <td colspan="1">
 
   <h2> Physical Health </h2>
   <label for="Physical Health"><b>Please Check all those that apply </b></label><br />
